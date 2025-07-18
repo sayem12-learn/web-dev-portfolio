@@ -204,13 +204,8 @@ footer textarea {
 }
 
 @media screen and (max-width : 576px) {
-    .banner-title{
-        font-size: 45px;
-    }
-    }
     .image{
-        width:400px;
-        
+        width:300px;
     }
     nav{
         font-size: 20px;
@@ -225,6 +220,24 @@ footer textarea {
     nav,
     nav ul,
     .banner
+    {
+    flex-direction: column;
+}
+    .banner-title{
+        font-size: 30px;
+    }
+    nav{
+        font-size: 20px;
+    }
+    .about {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .skill-container,
+    .about-items,
+    nav,
+    nav ul
     {
     flex-direction: column;
 }
