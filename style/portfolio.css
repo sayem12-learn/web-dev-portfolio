@@ -6,9 +6,8 @@
 }
 
 .bg {
-    padding: 0 auto;
     background-color: #fff8f3;
-    
+
 }
 
 /* in nav */
@@ -108,7 +107,7 @@ main {
 .section-description {
     font-size: 18px;
     color: #757575;
-    text-align:center;
+    text-align: center;
 }
 
 .about {
@@ -205,24 +204,47 @@ footer textarea {
 }
 
 @media screen and (max-width : 576px) {
-    .about{
+    .banner-title{
+        font-size: 45px;
+    }
+    }
+    .image{
+        width:400px;
+        
+    }
+    nav{
+        font-size: 20px;
+    }
+    .about {
         padding: 20px;
         margin: 10px;
     }
-    .skill-container , .about-items{
-        flex-direction: column;
-    }
-    footer{
-        padding: 20px;
-        display: block;
 
-    }
-    .footer-columns{
-        width : 100%
-    }
-    footer input[type="text"],
+    .skill-container,
+    .about-items,
+    nav,
+    nav ul,
+    .banner
+    {
+    flex-direction: column;
+}
+nav ul li{
+    margin: 20px;
+}
+
+footer {
+    padding: 20px;
+    display: block;
+
+}
+
+.footer-columns {
+    width: 100%
+}
+
+footer input[type="text"],
 footer input[type="email"],
-footer textarea{
+footer textarea {
     width: calc(100% - 40px);
 }
 
